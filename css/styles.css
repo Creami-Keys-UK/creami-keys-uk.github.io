@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');  /* Roboto Mono Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');  /* Roboto Mono Font*/
 
 body {
     background-color: white;
@@ -6,7 +6,19 @@ body {
     font-family: Roboto;
     text-align: center;
     text-size-adjust: 100;
-    justify-content: center;
+    justify-content: space-between;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
 }
 
 #sep-line {
