@@ -6,6 +6,7 @@ body {
     font-family: Roboto Mono;
     text-align: center;
     text-size-adjust: 100;
+    justify-content: center;
 }
 
 #sep-line {
@@ -18,14 +19,26 @@ body {
     font-weight: bold;
 }
 
-#github-link {
+a#github-user-link {
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
-#github-link:hover {
-    color: rgb(51, 48, 48);
+a#github-user-link:hover {
+    color: #696969;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#nav-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#nav-link:hover {
+    color: #696969;
     font-weight: bold;
     text-decoration: none;
 }
