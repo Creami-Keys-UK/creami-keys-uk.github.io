@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');  /* Roboto Mono Font*/
 
 body {
-    background-color: gray;
+    background-color: white;
+    color: black;
+    font-family: Roboto Mono;
+    text-align: center;
+    text-size-adjust: 100;
 }
 
-.hello-world {
-    color: whitesmoke;
-    font-family: Roboto Mono;
-    position: absolute;
-    top: 50%;
+#sep-line {
+    size: 1;
+    width: 100%;
+    color: black;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#github-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#github-link:hover {
+    color: rgb(51, 48, 48);
+    font-weight: bold;
+    text-decoration: none;
 }
