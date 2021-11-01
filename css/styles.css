@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');  /* Roboto Mono Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');  /* Roboto Mono Font*/
 
 body {
     background-color: white;
     color: black;
-    font-family: Roboto Mono;
+    font-family: Roboto;
     text-align: center;
     text-size-adjust: 100;
     justify-content: center;
