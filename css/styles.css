@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');  /* Roboto Thin 100 Font*/
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /* Lato 400 Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/* Roboto Thin 100 Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Lato 400 Font */
+
 
 /* Animated background */
 
@@ -14,7 +20,7 @@ section#animated-bg {
     height: 100vh;
     background: linear-gradient(-45deg, #5b9dff, #d06bff, #ff34d2);
     background-size: 400% 400%;
-    position:relative;
+    position: relative;
     animation: change 10s ease-in-out infinite;
 }
 
@@ -29,6 +35,7 @@ section#animated-bg {
         background-position: 0 50%;
     }
 }
+
 
 /* body */
 
@@ -51,6 +58,7 @@ body {
     padding: 5rem 0rem;
 }
 
+
 /* Other elements*/
 
 hr#sep-line {
@@ -62,6 +70,7 @@ hr#sep-line {
 #name {
     font-weight: bold;
 }
+
 #role {
     color: black;
 }
@@ -93,4 +102,11 @@ a#nav-link:hover {
 .main-content {
     border: 3px solid black;
     padding: 1rem 1rem
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    float: left;
 }
