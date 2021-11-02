@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');  /* Roboto Thin 100 Font*/
 
-/* Roboto Thin 100 Font*/
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-/* Lato 400 Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');  /* Lato 400 Font */
 
 
 /* Animated background */
@@ -36,7 +32,6 @@ section#animated-bg {
     }
 }
 
-
 /* body */
 
 body {
@@ -57,7 +52,6 @@ body {
     transform: translate(-50%, -50%);
     padding: 5rem 0rem;
 }
-
 
 /* Other elements*/
 
