@@ -1,2 +1,2 @@
 ## Creami
-# a react test server branch
+# a test server for development
