@@ -9,18 +9,27 @@
 </head>
 
 <body>
-    <section id="animated-bg">
-        <div class="body-content">
-            <div class="page-title">
-                <h2>Store</h2>
-            </div>
-            <div class="main-content" id="store-info">
-                Coming soon!
-            </div>
-            <div class="nav-link">
-                <a id="nav-link" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="nav-link" href="about-us.html">About Us</a>
-            </div>
+    <div class="loader">
+        <img src="img/loader.gif" alt="Loading..." >
+    </div>
+    <section id="animated-bg"></section>
+    <div class="body-content">
+        <div class="page-title">
+            <h2>Store</h2>
         </div>
+        <div class="main-content" id="store-info">
+            Coming soon!
+        </div>
+        <div class="nav-link">
+            <a id="nav-link" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="nav-link" href="about-us.html">About Us</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"
+        });
+    </script>
 </body>
 
 </html>
