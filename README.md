@@ -1,2 +1,5 @@
-## Creami
-# a react test server branch
+## creami
+# a test development server for creami
+
+TODO
+- Add a dark mode switch
