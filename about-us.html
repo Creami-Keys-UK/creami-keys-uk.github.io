@@ -2,12 +2,17 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>creami | about</title>
     <link rel="icon" href="img/creami-512.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <script src="js/loader.js" type="text/javascript"></script>
+    <div class="loader">
+        <img src="img/loader.gif" alt="Loading..." />
+    </div>
     <header>
         <div class="container">
             <img src="img/creami-512.png" alt="logo" class="logo" />
@@ -20,47 +25,40 @@
                 </ul>
             </nav>
         </div>
-        </header>
-    <div class="loader">
-        <img src="img/loader.gif" alt="Loading..." />
-    </div>
-    <div class="body-content">
-        <div class="page-title">
-            <h2>About Us</h2>
+    </header>
+    <main>
+        <div class="body-content">
+            <div class="page-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="main-content" id="team">
+                <div id="team-member">
+                    <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Xephire/">Xephire - Gabriel Pery</a></span>
+                    <br/>
+                    <span id="role">Lead Developer, design</span>
+                    <br/><br/>
+                </div>
+                <div id="team-member">
+                    <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Georgeplatt1/">George Platt</a></span>
+                    <br/>
+                    <span id="role">Developer, design</span>
+                    <br/><br/>
+                </div>
+                <div id="team-member">
+                    <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Ashtroyd/">Ashtroyd - John-Luke Brooks</a></span>
+                    <br/>
+                    <span id="role">Lead Designer, research</span>
+                    <br/><br/>
+                </div>
+                <div id="team-member">
+                    <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Zarixc/">Zarixc - Seth Easom</a></span>
+                    <br/>
+                    <span id="role">Market Research, design</span>
+                    <br/><br/>
+                </div>
+            </div>
         </div>
-        <div class="main-content" id="team">
-            <div id="team-member">
-                <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Xephire/">Xephire - Gabriel Pery</a></span>
-                <br/>
-                <span id="role">Lead Developer, design</span>
-                <br/><br/>
-            </div>
-            <div id="team-member">
-                <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Georgeplatt1/">George Platt</a></span>
-                <br/>
-                <span id="role">Developer, design</span>
-                <br/><br/>
-            </div>
-            <div id="team-member">
-                <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Ashtroyd/">Ashtroyd - John-Luke Brooks</a></span>
-                <br/>
-                <span id="role">Lead Designer, research</span>
-                <br/><br/>
-            </div>
-            <div id="team-member">
-                <span id="name"><a id="github-user-link" target="_blank" href="https://github.com/Zarixc/">Zarixc - Seth Easom</a></span>
-                <br/>
-                <span id="role">Market Research, design</span>
-                <br/><br/>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        window.addEventListener("load", function () {
-            const loader = document.querySelector(".loader");
-            loader.className += " hidden"
-        });
-    </script>
+    </main>
 </body>
 
 </html>
